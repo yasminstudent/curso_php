@@ -1,0 +1,13 @@
+Espaço alocado em memória
+Tem um nome e um valor 
+
+Exemplos:
+nome = Yasmin
+idade = 20
+caracteristicas = programadora, metódica, matinal
+
+comando mostrar na tela:
+    Eu me chamo NOME, tenho IDADE anos e sou CARACTERISTICAS 2.
+
+resultado:
+    Eu me chamo Yasmin, tenho 20 anos e sou metódica.
