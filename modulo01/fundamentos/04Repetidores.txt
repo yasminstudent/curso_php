@@ -1,0 +1,21 @@
+Criando um sistema que mostra os números de 1 a 10
+
+x = 1
+
+ENQUANTO x <= 10
+    MOSTRAR NA TELA: x
+    x = x + 1
+
+(Quando o x valer 11 não entrará mais no loop)
+
+RESULTADO:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10    

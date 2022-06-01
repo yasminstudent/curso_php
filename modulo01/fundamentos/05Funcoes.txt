@@ -1,0 +1,10 @@
+É um bloco de código colocado dentro de uma função 
+para poder ser usado mais de uma vez
+
+FUNÇÃO pegar nome do usuário logado
+    ..
+    ..
+    ..
+
+Em alguma outra parte do sistema:
+"Bem Vindo (a)" pegar nome do usuário logado

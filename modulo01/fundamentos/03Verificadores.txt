@@ -1,0 +1,21 @@
+Simulando um login
+
+usuario = O QUE O USUÁRIO DIGITOU
+senha = O QUE O USUÁRIO DIGITOU
+
+SE usuario = Yasmin
+    SE senha = Senha Correta
+        Ir para painel de controle
+    CASO CONTRÁRIO
+        Mostrar que a senha está errada
+CASO CONTRÁRIO
+    Mostrar que o usuário está errado
+
+Simulando um esqueci a senha
+
+email = O QUE O USUÁRIO DIGITOU
+
+SE email = USUÁRIO DO SISTEMA
+    Enviar email de recriação da senha.
+CASO CONTRÁRIO
+    Mostrar na tela: Não é um usuário.
