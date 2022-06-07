@@ -1,0 +1,9 @@
+ALGORITMO: CALCULO DO VALOR DA PASSAGEM
+
+idade = IDADE DA PESSOA
+preco = 6
+
+SE idade >= 65 ou idade <= 5
+    DIZER: A passagem é grátis
+CASO CONTRÁRIO
+    DIZER: A passagem custa PRECO reais

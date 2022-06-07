@@ -1,0 +1,14 @@
+ALGORITMO: PINTAR UMA TABELA (COR SIM E COR...)
+
+x = 0
+linha_atual = 1
+linhas = 10
+
+ENQUANTO linha_atual <= linhas
+    x = 1 - x
+    SE x = 0
+        PINTAR LINHA DE BRANCO
+    SE x = 1
+        PINTAR LINHA DE CINZA
+
+    linha_atual = linha_atual + 1
