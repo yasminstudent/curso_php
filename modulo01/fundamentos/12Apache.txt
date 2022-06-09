@@ -1,0 +1,14 @@
+O que é o Apache?
+    -> é o servidor web mais usado no mundo.
+
+Fazendo uma analogia a um restaurante o Apache é:
+* O host: 
+    - o cara que te recepciona (recebe a sua requisição)
+    - verifica a sua reserva (verifica as suas requisições, o que você busca)
+    - te dirige até a mesa (dirige até o local do servidor que vai processar suas informações)
+* O garçom:
+    - ele vai te servir (ele retorna o que você buscou, é o intermediário entre o seu navegador e a aplicação)
+    - verifica se os módulos da aplicação estão prontos p/ te servir
+    - limpa a sua mesa quando você sai (limpa o cache, os dados da sessão e etc)
+
+Em resumo: ele te guia durante todo processo, ele junta toda a equipe (php, mysql etc)

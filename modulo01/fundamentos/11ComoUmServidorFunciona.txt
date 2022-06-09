@@ -1,0 +1,16 @@
+1 Servidor Não É Livremente Acessível
+    -> É liberado uma porta p/ que ele seja acessado (geralmente 80 ou 8080)
+    -> Essa porta leva p/ algum lugar em específico
+
+Caso não seja definido na URL um arquivo específico p/ ser acessado, por padrão 
+ao acessar a porta o servidor busca pelos arquivos: index.html ou index.php, 
+quando ele não encontra esses arquivos ele exibe uma lista dos arquivos e 
+diretórios que se encontram na pasta (onde fica o seu site ↓)
+
+Onde fica o meu site (geralmente)?
+    * Linux: /var/www/
+    * WAMP: C:\wamp\www
+    * XAMP: C:\xamp\htdocs
+
+127.0.0.1
+    -> IP Padrão p/ acessar a sua própria máquina

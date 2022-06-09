@@ -1,0 +1,12 @@
+Na prática se coloca a condição entre parenteses
+e existem blocos de código.
+
+Exemplo:
+
+SE (nome == yasmin) { //início do bloco
+    //código
+} //fim do bloco
+
+ENQUANTO (você estiver estudando) { //início do bloco
+    //mantenha o foco nas aulas
+} //fim do bloco
