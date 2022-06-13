@@ -1,0 +1,11 @@
+Requisitos:
+
+* Servidor Apache
+* PHP
+* Servidor/Gerenciador de Banco de Dados
+
+Softwares de opções:
+* XAMP -> p/ qualquer sistema operacional
+* LAMP -> p/ Linux
+* WAMP -> p/ Windows
+* MAMP -> p/ MacOS

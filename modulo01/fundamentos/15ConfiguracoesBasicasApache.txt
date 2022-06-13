@@ -1,0 +1,7 @@
+Algumas confingurações básicas do APACHE
+
+- No arquivo httpd.conf
+    * ServerRoot "caminhoOndeSeEncontraOApache"
+    * DocumentRoot "caminhoOndeSeEncontraSeuSite"
+    * Listen -> porta que será acessada / liberada pelo servidor
+    * LoadModule -> módulos que executam uma ação específica dentro do apache

@@ -1,0 +1,11 @@
+O que é client-side?
+    -> é uma linguagem ou procedimento que acontece no computador do usuário
+    -> é executado somente no navegador / no browser do usuário
+    -> o servidor não tem acesso a esses procedimentos
+    -> ex: javascript
+
+O que é server-side?
+    -> é uma linguagem que acontece somente dentro do servidor
+    -> o client (navegador) não tem acesso a esse processamento, 
+       tem acesso somente a resposta
+    -> ex: php
