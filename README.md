@@ -18,4 +18,5 @@
 14. Criação de APIs
 15. WebServices (phpzp)
 16. Frameworks 
+17. Padrões de Projeto (RefactoringGuru)
 ...
