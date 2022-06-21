@@ -1,4 +1,27 @@
 <?php
+/**
+ * ---------- Exemplo do mundo real ----------
+ * Neste exemplo, o padrão Abstract Factory fornece uma infraestrutura para 
+ * criar vários tipos de modelos para diferentes elementos de uma página da web.
+ *
+ * Uma aplicação Web pode suportar diferentes mecanismos de renderização 
+ * ao mesmo tempo, mas apenas se suas classes forem independentes das classes 
+ * concretas dos mecanismos de renderização. Portanto, os objetos da aplicação 
+ * devem se comunicar com os objetos de modelo apenas por meio de suas interfaces 
+ * abstratas. Seu código não deve criar os objetos de modelo diretamente, 
+ * mas delegar sua criação a objetos fábrica especiais. Finalmente, seu código 
+ * também não deve depender dos objetos fábrica, mas deve trabalhar com eles 
+ * por meio da interface fábrica abstrata.
+ *
+ * Como resultado, você poderá fornecer à aplicação o objeto fábrica que 
+ * corresponde a um dos mecanismos de renderização. Todos os modelos, 
+ * criados na aplicação, serão criados por essa fábrica e seu tipo 
+ * corresponderá ao tipo da fábrica. Se você decidir alterar o 
+ * mecanismo de renderização, poderá passar uma nova fábrica 
+ * para o código cliente, sem quebrar algum código existente.
+ * 
+ * De eu para eu: as anotações sobre o padrão se encontram no caderno
+ */
 
 /**
  * A interface do Abstract Factory declara métodos de criação para cada tipo de
