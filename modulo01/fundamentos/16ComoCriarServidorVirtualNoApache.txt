@@ -1,0 +1,42 @@
+OBS: Essas configurações são opcionais
+OBJETIVO: criar um "link" para acessar um projeto específico dentro do Apache, 
+nesse exemplo o link será http://curso.php/ e ele acessará esse curso de php.
+
+(em Windows)
+Passso 1:
+    1.1 - Abrir bloco de notas como administrador
+    1.2 - Abrir o arquivo C:\Windows\System32\drivers\etc\hosts
+    1.3 - No fim do arquivo adicionar:
+        127.0.0.1   curso.php
+
+Passo 2:
+    2.1 - Abrir o arquivo C:\Apache24\conf\httpd.conf
+    2.2 - Buscar por vhost no arquivo
+    2.3 - Verificar se as seguintes linhas estão comentadas (se sim, descomentar):
+        LoadModule vhost_alias_module modules/mod_vhost_alias.so
+        Include conf/extra/httpd-vhosts.conf
+Passo 3:
+    3.1 - Abrir o arquivo C:\Apache24\conf\extra\httpd-vhosts.conf
+    3.2 - Adicionar as seguintes configurações no arquivo:
+        <VirtualHost *:80>
+            ServerAdmin webmaster@localhost
+            DocumentRoot "C:/Apache24/htdocs"
+            ServerName localhost
+            ServerAlias localhost
+            ErrorLog "logs/localhost-error.log"
+            CustomLog "logs/localhost-access.log" common
+        </VirtualHost>
+
+        <VirtualHost *:80>
+            ServerAdmin webmaster@curso.php
+            DocumentRoot "C:/Apache24/htdocs/estudos/Curso-PHP-Completo"
+            ServerName curso.php
+            ServerAlias curso.php
+            ErrorLog "logs/curso.php-error.log"
+            CustomLog "logs/curso.php-access.log" common
+        </VirtualHost>
+
+Passo 4:
+    4.1 - No menu iniciar, buscar por serviços (e abri-lo)
+    4.2 - Localizar o serviço do apache e reiniciar
+    4.3 - Testar os links http://localhost e http://curso.php
