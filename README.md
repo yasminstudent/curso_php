@@ -19,4 +19,5 @@
 15. WebServices (phpzp)
 16. Frameworks 
 17. Padrões de Projeto (RefactoringGuru)
-...
+
+(Lembrete for me: depois ler a documentação das funções nativas e entre outras coisas do php)
