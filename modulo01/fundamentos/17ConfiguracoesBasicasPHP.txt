@@ -1,0 +1,16 @@
+No arquivo php.ini
+
+Algumas configurações básicas:
+
+- max_execution_time = máximo de tempo em segundos que uma requisição pode demorar
+(evita que o servidor pare por causa de uma requisição muito lenta)
+
+- memory_limit = máximo de memória que um arquivo pode ocupar
+
+- error_reporting = quais tipos de erros o php tem permissão de exibir caso ocorra
+(em ambiente de produção geralmente não são exibidos todos os tipos de erros)
+
+- upload_max_filesize = tamanho máximo de arquivo que o php aceita para fazer upload
+
+- max_file_uploads = quantidade máximo de arquivos que podem ser enviados simultaneamente /
+em apenas uma requisição

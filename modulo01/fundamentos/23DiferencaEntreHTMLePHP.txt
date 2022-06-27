@@ -1,0 +1,3 @@
+HTML -> linguagem de marcação
+PHP -> linguagem de programação, usa-se a tag: 
+    <?php aqui dentro fica seu código php ?>

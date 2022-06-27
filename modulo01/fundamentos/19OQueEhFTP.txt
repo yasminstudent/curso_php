@@ -1,0 +1,5 @@
+O que é FTP?
+
+File Transfer Protocol = Protocolo de Transferência de Arquivo
+
+- É um protocolo para realizar transferências de arquivos de uma máquina comum p/ um servidor

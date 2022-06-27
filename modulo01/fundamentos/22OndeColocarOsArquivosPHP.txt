@@ -1,0 +1,15 @@
+WAMPSERVER:
+C:/wamp/www
+
+XAMPP:
+Windows: C:/xampp/htdocs
+Linux: /opt/lampp/htdocs
+
+MAMP:
+/Applications/MAMP/htdocs
+
+APACHE:
+Windows: C:/Apache24/htdocs
+Linux: var/www/html
+
+link: http://localhost/

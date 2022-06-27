@@ -1,0 +1,25 @@
+---------- Domínio ----------
+
+O que é um domínio?
+
+    R: É um endereço p/ se acessar um site / é uma identificação de um site
+
+    Ex: b7web.com.br, g1.com etc
+
+O que é um subdomínio?
+
+    R: Geralmente um subdomínio encaminha o usuário para um local específico do servidor,
+    um subdomínio é o que se encontra antes de um domínio
+
+    Ex: www.b7web.com.br -> geralmente para pasta principal (subdomínio: www)
+    algumacoisa.b7web.com.br -> outro local (subdomínio: algumacoisa)
+
+Sugestão de site para registrar um domínio nacional: registro.br
+Sugestão de site para registrar um domínio internacional: e-dominios.com.br
+
+Altera-se o DNS para indicar onde o domínio deve apontar (p/ qual servidor)
+
+---------- Hospedagem ----------
+É o servidor onde fica hospedado o seu site
+
+Sugestões de sites para realizar hospedagem: hostgator; aws...
