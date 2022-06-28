@@ -1,23 +1,40 @@
 <?php
 // Para ver mais funções de string: https://www.php.net/manual/pt_BR/ref.strings.php
 
+function br(){
+    echo "<br>";
+}
+
+// ----- TRIM -----
 $nomeSujo = "   Yasmin    ";
-$nomeLimpo = trim($nomeSujo); 
-//trim retira os espaços do ínicio e fim de uma string
+$nomeLimpo = trim($nomeSujo); //retira os espaços do ínicio e fim de uma string
 
-echo "NOME SUJO: ". strlen($nomeSujo) . "<br/>"; 
-echo "NOME LIMPO: ". strlen($nomeLimpo) . "<br/>";
-// strlen retorna a quantidade de caracteres de uma string
 
-$nome = "Yasmin Pereira";
+// ----- STRLEN -----
+echo "NOME SUJO: ". strlen($nomeSujo); // strlen retorna a quantidade de caracteres de uma string
+br();
+echo "NOME LIMPO: ". strlen($nomeLimpo);
+br();
 
-echo strtolower($nome) . "<br/>"; //yasmin pereira
-//strtolower transforma todos os caracteres de uma string em minúsculo
 
-echo strtoupper($nome) . "<br/>"; //YASMIN PEREIRA
-//strtoupper transforma todos os caracteres de uma string em maiúsculo
+$nomeCompleto = "Yasmin Pereira";
+// ----- STRTOLOWER -----
+echo "LOWER: ";
+echo strtolower($nomeCompleto); //yasmin pereira
+//transforma todos os caracteres de uma string em minúsculo
+br();
 
-echo str_replace('Yasmin', 'Ingrid', $nome) . "<br/>"; //Ingrid Pereira
+
+// ----- STRTOUPPER -----
+echo "UPPER: ";
+echo strtoupper($nomeCompleto); //YASMIN PEREIRA
+//transforma todos os caracteres de uma string em maiúsculo
+br();
+
+
+// ----- STR_REPLACE -----
+echo "REPLACE: ";
+echo str_replace('Yasmin', 'Ingrid', $nomeCompleto); //Ingrid Pereira
 /* str_replace substitui parte de uma string
     recebe:
         - o que
@@ -25,9 +42,13 @@ echo str_replace('Yasmin', 'Ingrid', $nome) . "<br/>"; //Ingrid Pereira
         - e onde
         vai substituir
 */
+br();
 
-echo substr($nome, 0, 3) . "<br/>"; //Yas
-echo substr($nome, -5, 2) . "<br/>"; //re
+
+// ----- SUBSTR -----
+echo substr($nomeCompleto, 0, 3); //Yas
+br();
+echo substr($nomeCompleto, -5, 2); //re
 /* substr retorna parte de uma string
     recebe:
         - string completa
