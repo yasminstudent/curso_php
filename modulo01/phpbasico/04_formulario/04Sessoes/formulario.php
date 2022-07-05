@@ -1,4 +1,14 @@
-<form action="35ValidandoDadosFormularioBack.php" method="POST">
+<?php
+//quando uma página vai trabalhar com sessões, é preciso rodar esse comando antes:
+session_start(); 
+
+if(isset($_SESSION['aviso'])){
+    echo $_SESSION['aviso'];
+    unset($_SESSION['aviso']); //remove essa variável de sessão
+}
+
+?>
+<form action="recebedor.php" method="POST">
     <label>
         Nome: <br>
         <input type="text" name="nome">

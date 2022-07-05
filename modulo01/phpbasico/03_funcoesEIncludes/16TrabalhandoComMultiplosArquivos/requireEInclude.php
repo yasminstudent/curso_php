@@ -12,8 +12,8 @@
             o require_once/include_once não irá importar o arquivo novamente
 */
 
-require_once('31CabecalhoExemplo.php');
-require_once('31CabecalhoExemplo.php'); //não irá importar o arquivo novamente
+require_once('cabecalho.php');
+require_once('cabecalho.php'); //não irá importar o arquivo novamente
 
 echo "Conteúdo do site";
 

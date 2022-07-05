@@ -39,7 +39,7 @@ if($nome){
     echo "Idade: ".$idade."<br>";
 }
 else{
-    header("Location: 35ValidandoDadosFormularioFront.php");
+    header("Location: formulario.php");
     exit;
 }
 

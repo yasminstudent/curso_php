@@ -27,7 +27,7 @@ else{
     $_SESSION['aviso'] = "Preencha os dados corretamente!";
     //obs: _SESSION é um array
 
-    header("Location: 36SessoesFront.php");
+    header("Location: formulario.php");
     exit;
 }
 

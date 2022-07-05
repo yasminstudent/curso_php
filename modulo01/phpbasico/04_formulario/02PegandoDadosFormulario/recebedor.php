@@ -10,7 +10,7 @@ if($nome){ //verifica se o nome foi enviado
     echo "Idade: ".$idade."<br>";
 }
 else{
-    header("Location: 34EnviandoDadosFormulario.php"); //para executar esse comando
+    header("Location: formulario.php"); //para executar esse comando
     //nenhuma informação deverá ter sido enviada ao navegador até o momento, ex: echo
     exit; //faz a execução do código parar, evita que hackers continuem a execução
     // do código mesmo após o comando header
