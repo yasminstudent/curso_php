@@ -1,0 +1,4 @@
+Olhar também as aulas:
+
+- 02_PHPBasico > 03_funcoesEIncludes > 12FuncoesNativasArray#1.php
+- 02_PHPBasico > 03_funcoesEIncludes > 13FuncoesNativasArray#2.php
