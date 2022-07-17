@@ -1,0 +1,29 @@
+Para uma pessoa "comum" é enviável construir um servidor próprio para hospedar
+algum sistema, pois ela teria que se preocupar hein:
+
+- comprar um computador potente
+- comprar um ar condicionado (pois o servidor esquenta muito)
+- comprar um gerador de energia (p/ o sistema não ser afetado em caso de queda de energia)
+- contratar mais de um provedor de internet (p/ o sistema não ser afetado caso alguma internet caia)
+- fazer verificações constantes p/ saber se está tudo okay com o servidor
+- pagar um valor mais alto na conta de luz/energia
+e etc
+
+No entanto, existem empresas que possuem 1 ou + servidores e elas alugam 
+um espaço para que clientes possam hospedar seus sites
+
+Tipos de hospedagem:
+
+* hospedagem compartilhada: 
+    1 servidor/computador (geralmente potente) com vários sites hospedados nele
+
+* vps (virtual private server): 
+    1 servidor/máquina virtual exclusiva p/ um determinado cliente, 
+    porém esse servidor junto com vários outros são emulados dentro 
+    de um outro computador (muito potente)
+
+    Então nesse caso, o processamento/memória não são compartilhados
+    Ex: 10GB de RAM p/ o cliente X, 15GB de RAM p/ o cliente Y...
+
+* hospedagem dedicada: 
+    1 servidor/computador exclusivo para cada cliente

@@ -15,7 +15,7 @@ O que é um subdomínio?
     algumacoisa.b7web.com.br -> outro local (subdomínio: algumacoisa)
 
 Sugestão de site para registrar um domínio nacional: registro.br
-Sugestão de site para registrar um domínio internacional: e-dominios.com.br
+Sugestão de site para registrar um domínio internacional: e-dominios.com.br; namecheap.com;
 
 Altera-se o DNS para indicar onde o domínio deve apontar (p/ qual servidor)
 

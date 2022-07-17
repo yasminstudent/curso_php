@@ -1,0 +1,22 @@
+Existem diversos servidores no mundo, p/ acessar um em específico podemos usar
+o endereço IP dele, mas seria mais difícil para os usuários lembrar dos endereços
+IPS, é aí que entram os domínios
+
+Um domínio é um endereço, um "nome", uma identificação de um site/servidor
+
+Exemplo de domínio: google.com -> informa qual servidor desejamos acessar
+Exemplo de sub domínio: www; images -> informa um local específico do servidor que desejamos acessar
+
+O que vem depois do ponto (google . com) é o orgão regulador
+
+Alguns orgãos reguladores:
+a.com
+a.com.br
+a.net
+a.org
+a.edu
+a.br
+a.org.br
+etc
+
+Exemplos de endereços completos: www.google.com; images.google.com
