@@ -2,8 +2,8 @@
 (Junção de alguns cursos)
 
 ### Módulos do Curso:
-1. Fundamentos de Programação (phpzp)
-2. PHP Básico
+1. Fundamentos de Programação (phpzp)  ✔
+2. PHP Básico  ✔
 3. PHP Intermediário (phpzp)
 4. PHP Avançado (phpzp)
 5. Orientação à Objetos
