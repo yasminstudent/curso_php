@@ -30,28 +30,18 @@ if (isset($_GET["modo"]) && $_GET["modo"] == "editar") {
     $botao = "Editar";
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <form method="POST" action="<?=$action?>">
-            Nome:<br>
-            <input type="text" name="nome" value="<?=$nome?>"><br><br>
 
-            Email:<br>
-            <input type="email" name="email" value="<?=$email?>"><br><br>
+<form method="POST" action="<?=$action?>">
+    Nome:<br>
+    <input type="text" name="nome" value="<?=$nome?>"><br><br>
 
-            <?php if ($botao == "Cadastrar") { ?>
-            Senha:<br>
-            <input type="password" name="senha"><br><br>
-            <?php }?>
+    Email:<br>
+    <input type="email" name="email" value="<?=$email?>"><br><br>
 
-            <input type="submit" name="botao" value="<?=$botao?>">
-        </form>
-    </body>
-</html>
+    <?php if ($botao == "Cadastrar") { ?>
+    Senha:<br>
+    <input type="password" name="senha"><br><br>
+    <?php }?>
+
+    <input type="submit" name="botao" value="<?=$botao?>">
+</form>
