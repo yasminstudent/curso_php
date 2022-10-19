@@ -1,4 +1,4 @@
-## Curso-PHP-Completo
+## Curso de PHP
 (Junção de alguns cursos)
 
 ### Módulos do Curso:
